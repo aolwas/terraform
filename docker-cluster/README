@@ -1,0 +1,3 @@
+# Deploy Docker cluster
+
+Simply deploy N ubuntu hosts with latest docker-ce
