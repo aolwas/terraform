@@ -80,6 +80,10 @@ output "id" {
   value = "${join(",", openstack_compute_instance_v2.instance.*.id)}"
 }
 
+output "name" {
+  value = "${join(",", openstack_compute_instance_v2.instance.*.name)}"
+}
+
 output "private_ip" {
   value = "${join(",", openstack_compute_instance_v2.instance.*.network.0.fixed_ip_v4)}"
 }
